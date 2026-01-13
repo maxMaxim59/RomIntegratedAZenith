@@ -11,10 +11,10 @@
 ;; -----------------------------------
 ;; Define Typeattribute
 ;; -----------------------------------
-(typeattribute domain (azenith_service))
+(typeattributeset domain (azenith_service))
 (typeattributeset mlstrustedsubject (azenith_service))
 (typeattributeset dev_type (azenith_service))
-(typeattribute extended_core_property_type (azenith_prop))
+(typeattributeset extended_core_property_type (azenith_prop))
 
 ;; Allow service to get/set its own props
 (allow azenith_service azenith_prop (file (getattr map open read)))

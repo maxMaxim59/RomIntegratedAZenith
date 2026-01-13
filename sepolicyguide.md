@@ -26,10 +26,10 @@ These definitions belong in:
 **Example:**
 
 ```cil
-(typeattribute domain (azenith_service))
+(typeattributeset domain (azenith_service))
 (typeattributeset mlstrustedsubject (azenith_service))
 (typeattributeset dev_type (azenith_service))
-(typeattribute extended_core_property_type (azenith_prop))
+(typeattributeset extended_core_property_type (azenith_prop))
 ```
 
 ### Type Definitions
